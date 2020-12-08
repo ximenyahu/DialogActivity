@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">My Application</string>
-    <string name="btn_dialog_activity">dialogActivity</string>
-    <string name="dialog_activity">hello, this is dialog activity</string>
+    <string name="btn_dialog_activity_1">first dialogActivity</string>
+    <string name="btn_dialog_activity_2">second dialogActivity</string>
+    <string name="dialog_activity_1">hello, this is dialog activity 1</string>
+    <string name="dialog_activity_2">hello, this is dialog activity 2</string>
 </resources>

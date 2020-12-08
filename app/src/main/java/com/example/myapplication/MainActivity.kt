@@ -11,8 +11,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        btnDialogActivity.setOnClickListener {
-            val intent = Intent(this, DialogActivity::class.java)
+        btnDialogActivity_1.setOnClickListener {
+            val intent = Intent(this, FirstDialogActivity::class.java)
+            startActivity(intent)
+        }
+
+        btnDialogActivity_2.setOnClickListener {
+            val intent = Intent(this, SecondDialogActivity::class.java)
             startActivity(intent)
         }
     }

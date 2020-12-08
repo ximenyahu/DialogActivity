@@ -16,7 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".DialogActivity" />
+        <activity android:name=".FirstDialogActivity" />
+        <activity
+            android:name=".SecondDialogActivity"
+            android:theme="@style/Theme.AppCompat.Dialog" />
     </application>
 
 </manifest>
