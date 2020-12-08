@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="btn_dialog_activity">dialogActivity</string>
+    <string name="dialog_activity">hello, this is dialog activity</string>
+</resources>
